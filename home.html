@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to the Home Page</h1>
+    <p>You are signed in.</p>
+    <button onclick="logout()">Sign Out</button>
+    <button onclick="resetPassword()">Reset Password</button>
+
+    <script>
+      function logout() {
+        window.location.href = '/logout';
+      }
+
+      function resetPassword() {
+        window.location.href = '/reset-password';
+      }
+    </script>
+  </div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+- auth.js
+- package.json
+- package-lock.json
+- README.md
+- app/
+    - controllers/
+        - authController.js
+    - models/
+        - User.js
+    - routes/
+        - authRoutes.js
+    - views/
+        - register.html
+        - login.html
+        - home.html
+        - resetPassword.html
+        - forgotPassword.html
+    - public/
+        - css/
+            - style.css
